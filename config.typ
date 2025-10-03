@@ -1,6 +1,8 @@
 #import "./sections/cover.typ": cover
 #import "@preview/zebraw:0.5.5": *
-#import "@preview/ansi-render:0.8.0": ansi-render as __ansi-render, terminal-themes
+#import "@preview/ansi-render:0.8.0": (
+  ansi-render as __ansi-render, terminal-themes,
+)
 
 #let ansi-render = __ansi-render.with(
   font: "CaskaydiaCove NF",
@@ -76,7 +78,7 @@
         columns: (1fr, 2fr, 1fr),
         align: (left + horizon, center + horizon, right + horizon),
         [#image(
-          "Imagenes/Logos/Logotipo-Horizontal-Institucional-U.-de-los-Andes-2025-lineal.svg",
+          "Imagenes/Isotipo-horizontal-black.svg",
           width: 3cm,
         )],
         [#ramo],
@@ -98,6 +100,18 @@
 
     // ],
   )
+
+  show figure: it => [
+    #it
+    #align(center)[Fuente: Elaboración propia.]
+  ]
+
+  show table: it => [
+    #align(center)[
+      #it
+    ]
+  ]
+
   show: zebraw.with(
     lang: false,
     background-color: rgb("#F8F8F8"),
@@ -120,4 +134,3 @@
   pagebreak()
   bibliography("references.bib")
 }
-

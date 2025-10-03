@@ -44,7 +44,7 @@
 
 
     // To get the current date use this
-    #ez-today.today(format: "M, d Y", custom-months: (
+    #ez-today.today(format: "M Y", custom-months: (
       "Enero",
       "Febrero",
       "Marzo",
