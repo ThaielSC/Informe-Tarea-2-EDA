@@ -1,4 +1,4 @@
-= Resultados Experimentales y Discución
+= Resultados Experimentales y Discusión
 
 #let tabla-resultados = table(
   columns: 4,
@@ -21,7 +21,7 @@
 )
 
 #figure(
-  caption: [Tiempo Promedio (ms) de ejecución para 3 ejecuciones de cada algoritmo y desviación estandar],
+  caption: [Tiempo Promedio (ms) de ejecución para 3 ejecuciones de cada algoritmo y desviación estándar],
   tabla-resultados,
 )<tabla_comparativa>
 
@@ -34,9 +34,9 @@
   grafico-comparativa,
 )<grafica_comparativa>
 
-== Caracteristicas de Hardware
+== Características de Hardware
 
-A continuación en la @hardware se presentan las caracteristicas de la maquina usada para correr los algoritmo.
+A continuación en la @hardware se presentan las características de la maquina usada para correr los algoritmo.
 
 #let hardware = block(
   stroke: black + 0.7pt,
@@ -54,6 +54,6 @@ A continuación en la @hardware se presentan las caracteristicas de la maquina u
 
 
 #figure(
-  caption: [Caracteristicas de la maquina usada para ejecutar las pruebas],
+  caption: [Características de la maquina usada para ejecutar las pruebas],
   hardware,
 )<hardware>

@@ -5,7 +5,7 @@
 )
 
 #let ansi-render = __ansi-render.with(
-  font: "CaskaydiaCove NF",
+  font: "Cascadia Code",
   inset: 5pt,
   radius: 2pt,
   width: 100%,
@@ -68,7 +68,7 @@
 
   set par(justify: true)
 
-  show raw: set text(font: "CaskaydiaCove NF")
+  show raw: set text(font: "Cascadia Code")
 
   set page(
     margin: (top: 4.0cm),
@@ -131,6 +131,6 @@
   outline()
   pagebreak()
   doc
-  pagebreak()
-  bibliography("references.bib")
+  // pagebreak()
+  // bibliography("references.bib")
 }
