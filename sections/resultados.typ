@@ -21,7 +21,7 @@
 )
 
 #figure(
-  caption: [Promedio de tiempo de ejecución para 3 ejecuciones de cada algoritmo y desviación estandar],
+  caption: [Tiempo Promedio (ms) de ejecución para 3 ejecuciones de cada algoritmo y desviación estandar],
   tabla-resultados,
 )<tabla_comparativa>
 
@@ -36,7 +36,7 @@
 
 == Caracteristicas de Hardware
 
-En la @hardware se presentan las caracteristicas de la maquina usada para correr los algoritmo.
+A continuación en la @hardware se presentan las caracteristicas de la maquina usada para correr los algoritmo.
 
 #let hardware = block(
   stroke: black + 0.7pt,

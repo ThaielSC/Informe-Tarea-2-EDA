@@ -1,0 +1,36 @@
+Running program...
+Cargando archivos:
+  -> Cargado: data/codes_500K.txt...
+  -> Cargado: data/codes_1M.txt...
+  -> Cargado: data/codes_10M.txt...
+Carga completada.
+
+500k
+Radix Sort: 0000AO 0000AY 0000AY 0000BH 0000BW ...
+Quick Sort: 0000AO 0000AY 0000AY 0000BH 0000BW ...
+Merge Sort: 0000AO 0000AY 0000AY 0000BH 0000BW ...
+
+
+Dataset: 500000
+
+Benchmark Report:
+  Algoritmo:           Radix Sort
+  Repeticiones:        5
+  Promedio:            731 ms
+  Mínimo:              703 ms
+  Máximo:              748 ms
+  Desviación estándar: 16.3829 ms
+Benchmark Report:
+  Algoritmo:           Quick Sort
+  Repeticiones:        5
+  Promedio:            721.8 ms
+  Mínimo:              712 ms
+  Máximo:              734 ms
+  Desviación estándar: 7.11056 ms
+Benchmark Report:
+  Algoritmo:           Merge Sort
+  Repeticiones:        5
+  Promedio:            785.8 ms
+  Mínimo:              782 ms
+  Máximo:              793 ms
+  Desviación estándar: 3.76298 ms

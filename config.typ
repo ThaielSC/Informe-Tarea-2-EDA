@@ -7,7 +7,7 @@
 #let ansi-render = __ansi-render.with(
   font: "CaskaydiaCove NF",
   inset: 5pt,
-  radius: 5pt,
+  radius: 2pt,
   width: 100%,
   theme: (
     black: rgb("#1d1f21"),
@@ -26,7 +26,7 @@
     bright-magenta: rgb("#b294bb"),
     bright-cyan: rgb("#8abeb7"),
     bright-white: rgb("#ffffff"),
-    default-fg: rgb("#c5c8c6"),
+    default-fg: rgb("#1d1f21"),
     default-bg: rgb("#F8F8F8"),
   ),
 )
@@ -78,7 +78,7 @@
         columns: (1fr, 2fr, 1fr),
         align: (left + horizon, center + horizon, right + horizon),
         [#image(
-          "Imagenes/Isotipo-horizontal-black.svg",
+          "Imagenes/Logos/Isotipo-horizontal-black.svg",
           width: 3cm,
         )],
         [#ramo],
